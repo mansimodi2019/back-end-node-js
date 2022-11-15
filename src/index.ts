@@ -1,4 +1,4 @@
-const { findServer } = require("./utils");
+import { findServer } from "./utils";
 
 const serverList = [
   {
@@ -20,9 +20,9 @@ const serverList = [
 ];
 
 findServer(serverList)
-  .then((url) => {
+  .then((url: string) => {
     console.log(url);
   })
-  .catch((err) => {
+  .catch((err: string) => {
     console.log(err);
   });

@@ -105,3 +105,6 @@ dist
 
 # jest
 __snapshots__/
+
+# build
+build/
